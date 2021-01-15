@@ -8,7 +8,7 @@ ___
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/after.png)
 
 * This is where the submition box is hidden
-![screenshot]() 
+![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/post.gif) 
 
 * Here is what posts looks like 
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/post.png) 
