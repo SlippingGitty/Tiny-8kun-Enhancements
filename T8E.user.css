@@ -59,7 +59,12 @@ p.intro span.name {
     color: #9fd2ff;
 }
 
-
+span.capcode {
+    background-color: #0000;
+    padding: 0px 0px;
+    border-radius: 0px;
+}
+  
 /* Board Name and Subtitle */
 header div.subtitle, h1 {
     text-align: right;
