@@ -1,0 +1,292 @@
+@-moz-document domain("8kun.top") {
+/* ==UserStyle==
+@name           Tiny 8kun Enhancements - Dark Pastel
+@namespace      USO Archive
+@author         SlippingGitty
+@description    `This theme is built on top of Tomorrow, so be sure the select that in [Options] > Themes, and check "Apply to all boards". If there is anything I missed, feel free to tell me and/or edit the CSS yourself. I tried to keep it as simple as possible so others could take it and make their own themes.`
+@version        20210115.0.4
+@license        DWTFYWT
+@preprocessor   uso
+==/UserStyle== */
+
+
+/*** This custom CSS was made specifically for the 8kun Tomorrow theme. Adjusting the color for other themes is very well easy, and I will do the best I can to make sure of it. ***/
+
+/***            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+ 
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.      ***/
+
+
+
+/* Board List */
+div.boardlist {
+    background: linear-gradient(rgb(28,31,48),rgba(13,16,33,0.9)) !important;
+}
+
+div.boardlist:nth-of-type(1) {
+    border-bottom: 1px solid #11111163 !important;
+}
+
+/* Hide Crypto Ad */
+.thread_ads {
+    display: none;
+}
+
+/* Hide Banner Ad */
+img.banner,
+img.board_image {
+    display: none;
+}
+    
+/* Hide Bottom Board List */
+    div.boardlist.bottom {
+    margin-top: 12px;
+    clear: both;
+    display: none;
+}
+    
+
+/* Posting and Reply Box */
+input[type="text"],
+input[type="password"],
+textarea {
+    border: 1px solid #c5c8c64a;
+    background-color: #0000003d;
+    color: #C5C8C6;
+}
+
+/* Username color */
+p.intro span.name {
+    color: #9fd2ff;
+}
+
+span.capcode {
+    color: #c401c4 !important;
+    background-color: #0000;
+}
+
+  
+/* Board Name and Subtitle */
+header div.subtitle, h1 {
+    text-align: right;
+}
+
+/* Sorting Modes */
+div.banner, div.banner a {
+    text-align: right;
+    font-size: smaller;
+}
+
+/* Hover Post Creator */
+#post-form-outer:not(:hover) {
+    opacity: 0 !important;
+    height: 00px;
+    background-color: #2c2f32;
+}
+
+#post-form-outer {
+    transition: opacity .25s ease-in-out;
+    float: right;
+    width: 300px;
+}
+
+/* Replies */
+div.post.reply.has-file.body-not-empty {
+    min-width: 95%;
+}
+
+div.post.reply {
+    min-width: 95%;
+}
+
+div.post.reply {
+    border: 1px solid #263f64;
+    border-radius: 3px !important;
+}
+    
+/* Images */
+    .post-image {
+    border-radius: 3px !important;
+    }
+
+/* Post/Reply Number */
+p.intro a, span.omitted a {
+    text-decoration: underline;
+}
+
+
+
+}
+
+@-moz-document domain("8kun.top") {
+/*-----Board Toolbar---*/
+
+/* Main Bar */
+div.boardlist {
+    background-color: #0D1021 !important;
+    color: #0D1021;
+}
+
+/* Text and Icons */
+div.boardlist a {
+    color: #14ef9b;
+}
+
+/*-----Posts-----*/
+
+/* Children */
+div.post.reply {
+    background-color: #1e0b38;
+}
+
+/* OP */
+body {
+    background: #0D1021 none;
+    color: #C5C8C6;
+}
+
+/*----Text Colors----*/
+
+/* Chan name */
+h1, div.subtitle {
+    color: #ff6c7d !important;
+}
+
+/* Making a post */
+form table tr th {
+    background: #0c1021;
+    border: 1px solid #0c1021;
+    color: #FFF;
+}
+
+/* Name */
+p.intro span.name {
+    color: #41cdff;
+}
+
+/* Board Volunteer Name */
+.intro span.capcode,
+p.intro a.capcode,
+p.intro a.nametag {
+    color: red;
+}
+
+/* Main Text */
+body {
+    color: #14ef9b;
+}
+
+/* Subject */
+p.intro span.subject {
+    color: #ff6c7d;
+}
+
+/* [Reply], [Show All Posts], and other various links */
+a:link,
+a:visited,
+p.intro a.email span.name {
+    color: #41cdff;
+}
+
+/* Greentext Meme-arrows Quoting */
+.quote {
+    color: #ff6c7d;
+}
+
+/* Child links */
+div.post.reply div.body a {
+    color: #41cdff;
+}
+
+/* Click to Expand Info */
+span.omitted {
+    color: #ff6c7d;
+}
+
+div.banner, div.banner a {
+    color: #14ef9b;
+}
+
+
+/* Posting Mode Question */
+div.banner {
+    background-color: #0D1021;
+}
+
+
+/*---etc---*/
+
+/* Border */
+hr {
+    border-top: 1px solid #ffffff00;
+    height: 0;
+}
+
+/* Pages */
+div.pages {
+    background: #0D1021;
+    border-color: #0D1021;
+}
+div.pages {
+    color: #41cdff;
+}
+
+
+/*----Board Index---*/
+
+/* About 8chan Header */
+.box {
+    background: #0D1021;
+    border-color: #0D1021;
+    color: #14ef9b;
+}
+
+/* The Word "modes" */
+#boardlist span {
+    color: #ff6c7d !important;
+}
+
+/* Boards by current popularity */
+.box-title {
+    background: #0D1021;
+    color: #ff6c7d;
+}
+
+li.col-12:nth-child(2n+1) {
+    background: #0D1021 !important;
+}
+li.col-12 {
+    background-color: #0D1021;
+}
+
+
+/* Boards and their Active ISPs/Total posts */
+table thead th {
+    background: #0D1021;
+    border-color: #0D1021;
+    color: #ff6c7d;
+}
+
+table tbody tr:nth-of-type(2n) {
+    background-color: #0D1021;
+}
+
+
+/* "Displaying results" */
+tbody.board-list-omitted td {
+    background: #0D1021;
+    border-color: #0D1021;
+}
+
+
+}
