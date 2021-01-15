@@ -1,7 +1,7 @@
 # Tiny 8kun Enhancements [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/T8E.user.css)
 Tiny 8kun Enhancements is a various set of personal CSS snippets strung together to make 8kun look a little less ugly for my liking. 
 
-<div class="text-gray mb-2">
+<div class="text-red mb-2">
   BUILT ON THE TOMORROW THEME
 </div>
 
