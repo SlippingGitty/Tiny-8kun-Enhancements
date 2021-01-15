@@ -18,10 +18,9 @@ Future plans:
 * Add more options in the userstyle settings
 ___
 
-# This is what it looks like
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/after.png)
 
-# This is were the submition box is hidden
+# Submission Box
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/post.gif) 
 
 # Threads
