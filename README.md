@@ -6,9 +6,12 @@ ___
 What's been done so far: 
 
 * Added a small gradient and box shadow to the favorite boards bar
-* Replies now fit the width by 95% and have a new color for their border
+* Replies now fit the width by 95%, with new color and a rounded border
 * The submission text box is hidden on the right until hovered
 * Various information has been shifted to the right
+* Usernames have been colored 
+* Post numbers are underlined
+* Photos are rounded by a bit
 
 The future plans:
 
