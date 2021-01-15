@@ -2,7 +2,6 @@
 Tiny 8kun Enhancements is a various set of personal CSS snippets strung together to make 8kun look a little less ugly for my liking. 
 
 Before use, please select the theme "Tomorrow" in 8kun's theme options menu.
-
 ___
 So far: 
 
@@ -17,6 +16,12 @@ Future plans:
 * Makes T8E compatible with other themes
 * Add more options in the userstyle settings
 ___
+
+Also see:
+https://github.com/4FK/8kun-disclaimer-hider
+
+___
+
 # Boards
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/after.png)
 
