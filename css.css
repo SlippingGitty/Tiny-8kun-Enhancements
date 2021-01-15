@@ -1,0 +1,82 @@
+@-moz-document domain("8kun.top") {
+/*** This custom CSS was made specifically for the 8kun Tomorrow theme. Adjusting the color for other themes is very well easy, and I will do the best I can to make sure of it. ***/
+/***            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+ 
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.      ***/
+
+/* Hide Crypto Ad */
+.thread_ads {
+    display: none;
+}
+
+/* Hide Banner Ad */
+img.banner,
+img.board_image {
+    display: none;
+}
+
+/* Posting and Reply Box */
+input[type="text"],
+input[type="password"],
+textarea {
+    border: 1px solid #c5c8c64a;
+    background-color: #0000003d;
+    color: #C5C8C6;
+}
+
+/* Board Name and Subtitle */
+header div.subtitle, h1 {
+    text-align: right;
+}
+
+/* Hover Post Creator */
+#post-form-outer:not(:hover) {
+    opacity: 0 !important;
+    height: 00px;
+}
+
+#post-form-outer {
+    transition: opacity .25s ease-in-out;
+    float: right;
+    width: 300px;
+}
+
+/* Replies */
+div.post.reply.has-file.body-not-empty {
+    min-width: 95%;
+}
+
+div.post.reply {
+    min-width: 95%;
+}
+
+div.post.reply {
+    border: 1px solid #373B41;
+}
+
+/* Board List */
+div.boardlist {
+    background: linear-gradient(rgb(55, 57, 61), rgba(40, 42, 46, 0.9)) !important;
+    color: #C5C8C6;
+}
+
+div.boardlist:nth-of-type(1) {
+    border-bottom: 1px solid #11111163 !important;
+}
+
+
+ 
+
+
+
+}
