@@ -76,6 +76,7 @@ div.banner, div.banner a {
 #post-form-outer:not(:hover) {
     opacity: 0 !important;
     height: 00px;
+    background-color: #2c2f32;
 }
 
 #post-form-outer {
