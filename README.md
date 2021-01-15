@@ -1,4 +1,4 @@
-# Tiny-8kun-Enhancements
+# Tiny 8kun Enhancements
 
 Tiny 8kun Enhancements is a various set of personal CSS snipits strung together to make 8kun look a little less ugly for my liking. 
 
