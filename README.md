@@ -11,11 +11,11 @@ ___
 # This is what it looks like
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/after.png)
 
-# This is where the submition box is hidden
+# This is were the submition box is hidden
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/post.gif) 
 
-# Here is what posts looks like 
+# Threads
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/post.png) 
 
-# Here are the replies
+# Replies
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/replies.png) 
