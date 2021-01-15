@@ -19,7 +19,7 @@ ___
 
 Additional add-ons:
 
-* https://github.com/4FK/8kun-disclaimer-hider
+* https://github.com/SlippingGitty/8chanX-for-8kun
 * https://github.com/SlippingGitty/8kun-disclaimer-hider
 ___
 
