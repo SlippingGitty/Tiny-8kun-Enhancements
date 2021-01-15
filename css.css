@@ -39,6 +39,13 @@ header div.subtitle, h1 {
     text-align: right;
 }
 
+/* Posting Mode */
+div.banner, div.banner a {
+    color: #81a2be;
+    text-align: right;
+    font-size: smaller;
+}
+
 /* Hover Post Creator */
 #post-form-outer:not(:hover) {
     opacity: 0 !important;
@@ -73,10 +80,4 @@ div.boardlist {
 div.boardlist:nth-of-type(1) {
     border-bottom: 1px solid #11111163 !important;
 }
-
-
- 
-
-
-
 }
