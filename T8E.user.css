@@ -23,6 +23,17 @@ as the name is changed.
 
  0. You just DO WHAT THE FUCK YOU WANT TO.      ***/
 
+
+/* Board List */
+div.boardlist {
+    background: linear-gradient(rgb(55, 57, 61), rgba(40, 42, 46, 0.9)) !important;
+    color: #C5C8C6;
+}
+
+div.boardlist:nth-of-type(1) {
+    border-bottom: 1px solid #11111163 !important;
+}
+
 /* Hide Crypto Ad */
 .thread_ads {
     display: none;
@@ -43,12 +54,18 @@ textarea {
     color: #C5C8C6;
 }
 
+/* Username color */
+p.intro span.name {
+    color: #9fd2ff;
+}
+
+
 /* Board Name and Subtitle */
 header div.subtitle, h1 {
     text-align: right;
 }
 
-/* Posting Mode */
+/* Sorting Modes */
 div.banner, div.banner a {
     color: #81a2be;
     text-align: right;
@@ -80,13 +97,4 @@ div.post.reply {
     border: 1px solid #373B41;
 }
 
-/* Board List */
-div.boardlist {
-    background: linear-gradient(rgb(55, 57, 61), rgba(40, 42, 46, 0.9)) !important;
-    color: #C5C8C6;
-}
-
-div.boardlist:nth-of-type(1) {
-    border-bottom: 1px solid #11111163 !important;
-}
 }
