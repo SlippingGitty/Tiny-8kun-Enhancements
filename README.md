@@ -17,7 +17,7 @@ Future plans:
 * Makes T8E compatible with other themes
 * Add more options in the userstyle settings
 ___
-
+# Boards
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/after.png)
 
 # Submission Box
