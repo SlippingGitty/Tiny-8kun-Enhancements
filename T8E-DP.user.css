@@ -4,28 +4,11 @@
 @namespace      USO Archive
 @author         SlippingGitty
 @description    `This theme is built on top of Tomorrow, so be sure the select that in [Options] > Themes, and check "Apply to all boards". If there is anything I missed, feel free to tell me and/or edit the CSS yourself. I tried to keep it as simple as possible so others could take it and make their own themes.`
-@version        20210115.0.4
+@version        20210116.0.1
 @license        DWTFYWT
 @preprocessor   uso
 ==/UserStyle== */
-
-
 /*** This custom CSS was made specifically for the 8kun Tomorrow theme. Adjusting the color for other themes is very well easy, and I will do the best I can to make sure of it. ***/
-
-/***            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                   Version 2, December 2004
- 
-Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
-
-Everyone is permitted to copy and distribute verbatim or modified
-copies of this license document, and changing it is allowed as long
-as the name is changed.
- 
-           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
- 0. You just DO WHAT THE FUCK YOU WANT TO.      ***/
-
 
 
 /* Board List */
@@ -101,17 +84,11 @@ div.banner, div.banner a {
 }
 
 /* Replies */
-div.post.reply.has-file.body-not-empty {
-    min-width: 95%;
-}
-
-div.post.reply {
-    min-width: 95%;
-}
-
-div.post.reply {
-    border: 1px solid #263f64;
-    border-radius: 3px !important;
+div.post.reply.has-file.body-not-empty, div.post.reply  {
+	display: flow-root;
+	margin-bottom: -13px !important;
+	border-radius: 3px !important;
+    border: 1px solid #0D1021;
 }
     
 /* Images */
@@ -124,7 +101,19 @@ p.intro a, span.omitted a {
     text-decoration: underline;
 }
 
+/***            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+ 
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
 
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.      ***/
 
 }
 
@@ -228,7 +217,7 @@ div.banner {
 
 /* Border */
 hr {
-    border-top: 1px solid #ffffff00;
+    border-top: 0px solid #ffffff00;
     height: 0;
 }
 
