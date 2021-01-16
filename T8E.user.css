@@ -3,7 +3,7 @@
 @namespace      USO Archive
 @author         SlippingGitty
 @description    `This theme is built on top of Tomorrow, so be sure the select that in [Options] > Themes, and check "Apply to all boards". If there is anything I missed, feel free to tell me and/or edit the CSS yourself. I tried to keep it as simple as possible so others could take it and make their own themes.`
-@version        20210115.0.4
+@version        20210116.0.1
 @license        DWTFYWT
 @preprocessor   uso
 ==/UserStyle== */
@@ -87,21 +87,15 @@ div.banner, div.banner a {
 }
 
 /* Replies */
-div.post.reply.has-file.body-not-empty {
-    min-width: 95%;
-}
-
-div.post.reply {
-    min-width: 95%;
-}
-
-div.post.reply {
+div.post.reply.has-file.body-not-empty, div.post.reply  {
+	display: flow-root;
+	margin-bottom: -13px !important;
+	border-radius: 3px !important;
     border: 1px solid #373B41;
-    border-radius: 3px !important;
 }
     
 /* Images */
-    .post-image {
+    .post-image, .post.reply {
     border-radius: 3px !important;
     }
 }
