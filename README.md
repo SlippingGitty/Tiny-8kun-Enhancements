@@ -26,8 +26,6 @@ Additional add-ons:
 * https://github.com/SlippingGitty/8kun-disclaimer-hider
 ___
 
-Brief explanation: https://streamable.com/ahhlcm
-
 # Boards
 ![screenshot](https://raw.githubusercontent.com/SlippingGitty/Tiny-8kun-Enhancements/main/screenshots/after.png)
 
