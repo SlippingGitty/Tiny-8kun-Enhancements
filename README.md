@@ -3,10 +3,10 @@ Tiny 8kun Enhancements is a various set of personal CSS snippets strung together
 
 Before use, please select the theme "Tomorrow" in 8kun's theme options menu.
 ___
-What's been done so far: 
+What's been changed so far: 
 
 * Added a small gradient and box shadow to the favorite boards bar
-* Replies now fit the width by 95%, with new color and a rounded border
+* Replies now fit the width of the window
 * The submission text box is hidden on the right until hovered
 * Various information has been shifted to the right
 * Usernames have been colored 
