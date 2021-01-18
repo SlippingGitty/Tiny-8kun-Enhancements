@@ -5,6 +5,8 @@ Before use, please select the theme "Tomorrow" in 8kun's theme options menu.
 ___
 What's been changed so far: 
 
+* Hid the crypto ad
+* Hid the banner image
 * Added a small gradient and box shadow to the favorite boards bar
 * Replies now fit the width of the window
 * The submission text box is hidden on the right until hovered
