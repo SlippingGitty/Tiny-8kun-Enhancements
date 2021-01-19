@@ -1,0 +1,49 @@
+/* Remove Thread Ads */
+.thread_ads, .bottom_ads, .top_ads {
+	display:none;
+}
+
+/* Remove Banner Ad*/
+.thumbnail > img, .thumbnail a > img {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+/* Thread Buttons */
+div.banner {
+border-radius: 3px;
+padding: 6px 10px 5px;
+font-weight: 700;
+background-color: #282A2E;
+border: 1px solid #7374752b;
+color: #9B94BB !important;
+}
+
+div.banner a {
+	color: #c5bbf2 !important;
+}
+
+/* Board List */
+div.boardlist {
+    background: linear-gradient(rgb(55, 57, 61), rgba(40, 42, 46, 0.9)) !important;
+    color: #C5C8C6;
+}
+
+/* Submit box */
+
+input[type="text"],
+input[type="password"],
+textarea {
+    border: 1px solid #c5c8c64a;
+    background-color: #0000003d;
+    color: #C5C8C6;
+}
+
+/* Banner */
+
+mg.banner, img.board_image {
+    margin: 12px auto 0 auto;
+    width: 234px;
+    height: 30px;
+}
