@@ -1,0 +1,124 @@
+/* Remove Thread Ads */
+.thread_ads, .bottom_ads, .top_ads {
+	display:none;
+}
+
+/* Remove Banner Ad*/
+.thumbnail > img, .thumbnail a > img {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+/* Thread Buttons */
+div.banner {
+border-radius: 3px;
+padding: 6px 10px 5px;
+font-weight: 700;
+background-color: #282A2E;
+border: 1px solid #7374752b;
+color: #9B94BB !important;
+}
+
+div.banner a {
+	color: #c5bbf2 !important;
+}
+
+/* Board List */
+div.boardlist {
+    background: linear-gradient(rgb(55, 57, 61), rgba(40, 42, 46, 0.9)) !important;
+    color: #C5C8C6;
+
+}
+
+
+/* Submit box */
+
+input[type="text"],
+input[type="password"],
+textarea {
+    border: 1px solid #c5c8c64a;
+    background-color: #0000003d;
+    color: #C5C8C6;
+}
+
+/* Banner */
+
+mg.banner, img.board_image {
+    margin: 12px auto 0 auto;
+    width: 234px;
+    height: 30px;
+}
+
+/* Catalog */
+.theme-catalog div.grid-size-small {
+max-height: 300px;
+}
+.theme-catalog div.grid-size-small img {
+max-height: 100%;
+max-width: 100%;
+}
+.theme-catalog div.thread img {
+max-height: 100%;
+max-width: 100%;
+box-shadow: none;
+border: 0px;
+}
+.theme-catalog div.threads {
+margin-left: 0px;
+}
+
+/* Replies */
+div.post.reply {
+    border: 1px solid #373B41;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+/* Op Images */
+.file:not(.multifile) .post-image {
+    float: left;
+    margin-left: 0px;
+}
+
+/* OP */
+div.post p {
+    display: inline-table;
+	margin-left: 0px;
+	
+}
+
+
+
+/* Header */
+header {
+    margin: 0em 0;
+    border-radius: 3px;
+    padding: 6px 10px 5px;
+    font-weight: 700;
+    background-color: #282A2E;
+    border: 1px solid #7374752b;
+    color: #9B94BB !important;
+}
+
+/* Images */
+.post-image {
+    float: left;
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+
+/***            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+ 
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.      ***/
