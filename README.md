@@ -3,7 +3,7 @@ Tiny 8kun Enhancements is a various set of personal CSS snippets strung together
 
 Before use, please select the theme "Tomorrow" in 8kun's theme options menu. 
 
-Mobile users can use the mobile version with by typing `@import url("@import url("https://slippinggitty.github.io/MobileT8E.css");` into the themes menu.
+Mobile users can use the mobile version with by typing `@import url("https://slippinggitty.github.io/MobileT8E.css");` into the themes menu.
 ___
 What's been changed so far: 
 
