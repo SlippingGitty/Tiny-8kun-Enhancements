@@ -1,0 +1,100 @@
+@-moz-document domain("4channel.org"), domain("4chan.org") {
+/* ==UserStyle==
+@name           Tiny 4chan Enhancements
+@namespace      USO Archive
+@author         SlippingGitty
+@description    `This theme is built on top of Tomorrow, so be sure the select that in [Settings]. If there is anything I missed, feel free to tell me and/or edit the CSS yourself. I tried to keep it as simple as possible so others could take it and make their own themes.`
+@version        20210119.0.1
+@license        DWTFYWT
+@preprocessor   uso
+==/UserStyle== */
+
+/* Board List */
+div#boardNavDesktop {
+    background: linear-gradient(rgb(55, 57, 61), rgba(40, 42, 46, 0.9)) !important;
+    color: #C5C8C6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: 0;
+	z-index: 30;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+
+/* Banner Hide*/
+
+img.middlead, .middlead > div, .middlead a img {
+    display: none;
+}
+
+/* Hide Crypto Ad */
+#bannerCnt {
+    display: none;
+}
+
+/* Hide Blotter */
+#blotter {
+    display: none;
+}
+
+/* Replies */
+div.reply {
+	display: flow-root;
+	border-radius: 3px !important;
+    border: 1px solid #373B41;
+}
+
+/* Underline post number */
+div.post div.postInfo span.postNum > a {
+    text-decoration: underline;
+    color: #c5c8c6 !important;
+}
+
+/* Board name */
+div.boardBanner > div.boardTitle {
+    text-align: right;
+	margin-top: 30px;
+}
+
+/* Thread Button */
+#togglePostFormLink {
+    float: right;
+}
+
+/* Border Gone */
+hr {
+    border-top: 1px solid #fff0;
+}
+
+/* Global Message */
+.globalMessage {
+    display: none;
+}
+
+/* Username */
+div.post div.postInfo span.nameBlock span.name {
+    color: #9fd2ff;
+}
+
+/* Threading options */
+hr#op, #ctrl-top {
+    clear: both;
+    text-align: right;
+}
+
+/***            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+ 
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.      ***/
+
+}
