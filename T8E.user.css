@@ -1,10 +1,9 @@
 /* ==UserStyle==
 @name           Tiny 8kun Enhancements
 @namespace      SlippingGitty
+@version        1.0.0
+@description    Makes 8kun pretty
 @author         SlippingGitty
-@description    Makes 8kun pretty.
-@version        20210116.0.1
-@license        WTFPL
 ==/UserStyle== */
 /*** This custom CSS was made specifically for the 8kun Tomorrow theme. Adjusting the color for other themes is very well easy, and I will do the best I can to make sure of it. ***/
 @-moz-document domain("8kun.top") {
