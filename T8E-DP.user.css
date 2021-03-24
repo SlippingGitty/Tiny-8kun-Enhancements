@@ -1,4 +1,3 @@
-@-moz-document domain("8kun.top") {
 /* ==UserStyle==
 @name           Tiny 8kun Enhancements - Dark Pastel
 @namespace      USO Archive
@@ -9,7 +8,7 @@
 @preprocessor   uso
 ==/UserStyle== */
 /*** This custom CSS was made specifically for the 8kun Tomorrow theme. Adjusting the color for other themes is very well easy, and I will do the best I can to make sure of it. ***/
-
+@-moz-document domain("8kun.top") {
 
 /* Board List */
 div.boardlist {
