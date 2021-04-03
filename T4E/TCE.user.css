@@ -1,0 +1,146 @@
+/* ==UserStyle==
+@name           Tiny Coronachan Enhancements
+@namespace      USO Archive
+@author         SlippingGitty
+@description    `T8E but for Coronachan`
+@version        2021.04.03.01
+@license        WTFPL
+@preprocessor   uso
+==/UserStyle== */
+@-moz-document domain("coronachan.xyz") {
+/* Board List */
+div.boardlist {
+    background: linear-gradient(rgb(55, 57, 61), rgba(40, 42, 46, 0.9)) !important;
+    color: #C5C8C6;
+   position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    z-index: 30;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+
+div.boardlist:nth-of-type(1) {
+    border-bottom: 1px solid #11111163 !important;
+}
+
+
+/* Hide Banner Ad */
+img.banner,
+img.board_image {
+    display: none;
+}
+    
+/* Hide Bottom Board List */
+    div.boardlist.bottom {
+    margin-top: 12px;
+    clear: both;
+    display: none;
+}
+    
+
+/* Posting and Reply Box */
+input[type="text"],
+input[type="password"],
+textarea {
+    border: 1px solid #c5c8c64a;
+    background-color: #0000003d;
+    color: #C5C8C6;
+}
+
+/* Username color */
+p.intro span.name {
+    color: #9fd2ff;
+}
+
+span.capcode {
+    color: purple !important;
+    background-color: #0000;
+}
+
+/* Board Name and Subtitle */
+header div.subtitle, h1 {
+    text-align: right;
+}
+
+/* Sorting Modes */
+div.banner, div.banner a {
+    color: #81a2be;
+    text-align: right;
+    font-size: smaller;
+}
+
+/* Replies */
+div.post.reply.has-file.body-not-empty, div.post.reply  {
+	display: flow-root;
+	margin-bottom: -13px !important;
+	border-radius: 3px !important;
+    border: 1px solid #373B41;
+}
+    
+/* Images */
+    .post-image, .post.reply {
+    border-radius: 3px !important;
+    }
+
+
+/* Body */
+body {
+    background-image: url('none.png');
+    background-color: #1D1F21;
+}
+
+/* Discord Ad Hide */
+div.blotter {
+display: none;
+}
+
+/* Title */
+div.title, h1, header div.subtitle {
+    color: #C5C8C6;
+}
+
+/* Hide Disclaimer */
+div.post div.body::after {
+    display: none;
+}
+
+/* Post/Reply Number */
+p.intro a, span.omitted a {
+    text-decoration: underline;
+}
+
+/* Link Color */
+a:link, a:visited, .intro a.email span.name {
+    color: #81a2be;
+}
+
+/* Text */
+div.post.reply div.body, div.post div.body {
+    color: #C5C8C6;
+}
+
+/* Replies */
+div.post.reply.has-file.body-not-empty, div.post.reply {
+    display: flow-root;
+    margin-bottom: -13px !important;
+    border-radius: 3px !important;
+    border: 1px solid #373B41;
+    background-color: #282A2E;
+}
+}
+
+/***            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+ 
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.      ***/
